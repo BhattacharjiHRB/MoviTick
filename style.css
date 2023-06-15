@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.navrbar
+{
+    display: inline-block;
+    position: relative;
+    padding: 30px;
+    
+}
+#navi
+{
+    background-color: pink;
+    
+}
+#brand
+{   
+    margin-left: 3rem;
+    margin-right: 30rem;
+    font-style: italic ;
+    font-weight: bold;
+    color: black;
+}
+#brand span
+{
+    color: rgb(108, 153, 18);
+}
+
+#navlist
+{
+    display: inline-flex;
+    margin-left: 5rem;
+    margin-right: 50px;
+    position: inherit;
+}
+#navlist li a
+{
+    display: inline-flex;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+#navlist li a:hover
+{
+    cursor: pointer;
+    color: rgb(108, 153, 18);
+}
+#navlist #lsbtn
+{
+    display: inline-block;
+    background-color: brown;
+    color:whitesmoke;
+    border-style: hidden; 
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navlist #lsbtn:hover
+{
+    cursor: pointer;
+    background-color: rgb(108, 146, 16);
+    color: rgb(0, 0, 0);
+}
+#moviecard
+{
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+a.btn
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: hidden;
+    background-color: rgb(63, 10, 10);
+    color: whitesmoke;
+    transition: 0.5s all ease-in;
+}
+a.btn:hover
+{
+    background-color: pink;
+    color: black;
+
+}
+#footer
+{
+    display: flex;
+    padding: 15px;
+    background-color:brown;
+    color: azure;
+}
+#footer span
+{
+    font-weight: bold;
+    margin: 20px;
+}
+#social
+{
+    display: flex;
+    margin-bottom: 5px;   
+}
+#social i
+{
+    margin: 20px;
+
+}
